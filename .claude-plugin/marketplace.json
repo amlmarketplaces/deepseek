@@ -1,0 +1,23 @@
+{
+  "name": "deepseek",
+  "owner": {
+    "name": "Deepseek"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/deepseek-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "deepseek-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepseek-chat.git"
+      }
+    },
+    {
+      "name": "deepseek-reasoner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepseek-reasoner.git"
+      }
+    }
+  ]
+}
